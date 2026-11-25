@@ -16,6 +16,7 @@ public class UiButtonSound : MonoBehaviour, IPointerEnterHandler
 
     void OnPress()
     {
+        Debug.Log("UiButtonSound.OnPress on " + name + " Instance=" + UiAudio.Instance);
         var ui = UiAudio.Instance;
         if (ui == null) return;
         switch (pressSound)
