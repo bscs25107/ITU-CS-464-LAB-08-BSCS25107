@@ -34,7 +34,7 @@ public class SceneLoader : MonoBehaviour
         bar.value = 0f;
         percentText.text = "0%";
         loadingPanel.SetActive(true);
-        yield return null;                       // let the panel draw once
+        Debug.Log($"Panel activeSelf={loadingPanel.activeSelf} inHierarchy={loadingPanel.activeInHierarchy} parent={(loadingPanel.transform.parent ? loadingPanel.transform.parent.name : "none")}", loadingPanel); yield return null;                       // let the panel draw once
 
         AsyncOperation op = SceneManager.LoadSceneAsync(sceneName);
         op.allowSceneActivation = false;         // hold at 0.9
