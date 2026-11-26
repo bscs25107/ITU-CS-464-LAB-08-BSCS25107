@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    [SerializeField] PlayerHealth health;
+    [SerializeField] Health health;
     [SerializeField] AudioClip hurt, heal, death;
 
     void OnEnable() { health.Damaged += OnDamaged; health.Healed += OnHealed; health.Died += OnDied; }

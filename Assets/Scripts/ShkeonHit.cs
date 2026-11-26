@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShakeonHit : MonoBehaviour
 {
-    [SerializeField] PlayerHealth health;
+    [SerializeField] Health health;
     [SerializeField] Transform cam;
     [SerializeField] float magnitude = 0.15f, duration = 0.3f;
     Vector3 origin;

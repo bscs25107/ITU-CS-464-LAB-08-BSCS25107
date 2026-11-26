@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HitFlash : MonoBehaviour
 {
-    [SerializeField] PlayerHealth health;
+    [SerializeField] Health health;
     [SerializeField] Image flash;          // full-screen red, Raycast Target OFF
     Coroutine routine;
 

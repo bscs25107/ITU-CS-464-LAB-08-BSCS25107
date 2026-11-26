@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class GameFlow : MonoBehaviour
 {
-    [SerializeField] PlayerHealth player;      // khali chhod sakti ho agar health nahi hai
+    [SerializeField] Health player;      // khali chhod sakti ho agar health nahi hai
     [SerializeField] int fragmentsToWin = 5;
-
+    public bool IsOver => over;
     public event Action GameStarted, GameWon, GameLost;
     public event Action<int, int> Collected;
 
