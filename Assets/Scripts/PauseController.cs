@@ -2,17 +2,18 @@ using UnityEngine;
 
 public class PauseController : MonoBehaviour
 {
-    [SerializeField] GameObject pausePanel;     // tumhari Lab 07 Pause screen
+    [SerializeField] GameObject pausePanel;
+    [SerializeField] GameFlow flow;            // optional: result ke baad pause na ho
     bool paused;
 
     public void Pause()
     {
-        if (paused) return;
+        if (paused || (flow && flow.IsOver)) return;
         paused = true;
         Time.timeScale = 0f;
-        AudioListener.pause = true;             // SFX freeze
-        if (UiAudio.Instance) UiAudio.Instance.Pause();   // UI ignores the pause
-        pausePanel.SetActive(true);             // ya apna tween/open function call karo
+        AudioListener.pause = true;                       // SFX freeze
+        if (UiAudio.Instance) UiAudio.Instance.Pause();   // UI sources pause ignore karte hain
+        pausePanel.SetActive(true);
     }
 
     public void Resume()
@@ -22,12 +23,11 @@ public class PauseController : MonoBehaviour
         Time.timeScale = 1f;
         AudioListener.pause = false;
         if (UiAudio.Instance) UiAudio.Instance.Resume();
-        pausePanel.SetActive(false);            // ya apna close tween
+        pausePanel.SetActive(false);
     }
 
     void OnDisable()
     {
-        // scene chhodte waqt kabhi pause state na atke
         Time.timeScale = 1f;
         AudioListener.pause = false;
     }

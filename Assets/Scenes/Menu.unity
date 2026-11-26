@@ -31630,6 +31630,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706633315}
   m_CullTransparentMesh: 1
+--- !u!1 &1707322777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1707322779}
+  - component: {fileID: 1707322778}
+  m_Layer: 0
+  m_Name: Listeners
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1707322778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707322777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d68b77908144d4199f74a7b7794d93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicDirector
+  session: {fileID: 0}
+  gameplayMusic: {fileID: 8300000, guid: 6a929d4461f542a41a70d6e1d68d0c91, type: 3}
+  resultsMusic: {fileID: 8300000, guid: 2366b81a39f868147a56c86b0c8fb59b, type: 3}
+  winSfx: {fileID: 8300000, guid: 7dc5d9dc319f1654888431b49f456b86, type: 3}
+  loseSfx: {fileID: 8300000, guid: 51ed1959fdd7f894d8bb28b2596544ee, type: 3}
+--- !u!4 &1707322779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707322777}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 0, z: -0.00006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1711319803
 GameObject:
   m_ObjectHideFlags: 0
@@ -40099,3 +40148,4 @@ SceneRoots:
   - {fileID: 43653919}
   - {fileID: 1002789914}
   - {fileID: 1098648682}
+  - {fileID: 1707322779}
