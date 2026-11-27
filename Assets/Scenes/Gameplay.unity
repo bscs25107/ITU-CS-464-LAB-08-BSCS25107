@@ -17096,7 +17096,7 @@ MonoBehaviour:
   health: {fileID: 1802106181}
   hurt: {fileID: 8300000, guid: a6d12e7fa11007d4ca22b4ed5e9ccd66, type: 3}
   heal: {fileID: 8300000, guid: 5b9d8b4219bbd3740a13d190593df80e, type: 3}
-  death: {fileID: 0}
+  death: {fileID: 8300000, guid: a9111a0f41e408645af1ad46cb1800bf, type: 3}
 --- !u!114 &2124021644
 MonoBehaviour:
   m_ObjectHideFlags: 0
