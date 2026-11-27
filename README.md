@@ -12,6 +12,7 @@ pause, setting panels in gameplay, setting in both main menu and gameplay.
 - SFX
 - UI
 **Exposed parameters:** MasterVolume, MusicVolume, SFXVolume, UIVolume.
+  
 | Source | Output Group |
 | :--- | :--- |
 | UiAudio |UI |
@@ -28,6 +29,7 @@ pause, setting panels in gameplay, setting in both main menu and gameplay.
 - The same audio settings panel is accessible from both the Main Menu and the Pause Menu, so the user doesn't need separate settings screens.
 - 
 ### Music Transitions
+
 | Trigger | To and From | Fade |
 | :--- | :--- | :--- |
 | Menu scene starts | main screen to menu music | 0.5s|
@@ -38,6 +40,7 @@ pause, setting panels in gameplay, setting in both main menu and gameplay.
 Gameplay was refactored so the systems that detect things only raise events, and independent listener components react to them.
 
 ### Publishers
+
 | Publisher | Events |
 | :--- | :--- |
 | Health |Damaged, Died |
@@ -45,6 +48,7 @@ Gameplay was refactored so the systems that detect things only raise events, and
 | Flow | GameStarted, GameWon, GameLost, Collected |
 
 ### Subcribers
+
 | Listener | Subscriber | Response |
 | :--- | :--- | :--- |
 | HealthBarListener |Health.Damaged | Updates the health bar fill and colour|
@@ -55,6 +59,7 @@ Gameplay was refactored so the systems that detect things only raise events, and
 
 
 ### Asset Credits
+
 | File | Use | Author |Source |
 | :--- | :--- | :--- | :--- |
 | 251390__deadsillyrabbit__button_hover |UI hover | [URL](https://freesound.org/people/deadsillyrabbit/sounds/251390/)| [Author]|
