@@ -14,6 +14,7 @@ public class StaggerIn : MonoBehaviour
 
     void Awake()
     {
+        if (items == null || items.Length == 0) return;
         home = new Vector2[items.Length];
         groups = new CanvasGroup[items.Length];
         for (int i = 0; i < items.Length; i++)
@@ -26,6 +27,7 @@ public class StaggerIn : MonoBehaviour
 
     void OnEnable()
     {
+        if (home == null) return;
         for (int i = 0; i < items.Length; i++)
         {
             groups[i].alpha = 0f;

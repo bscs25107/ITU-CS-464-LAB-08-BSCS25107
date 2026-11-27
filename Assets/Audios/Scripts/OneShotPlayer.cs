@@ -9,7 +9,7 @@ public abstract class OneShotPlayer : MonoBehaviour
     public void Play(AudioClip clip, float volume = 1f, float semitones = -1f)
     {
         if (clip == null) { Debug.LogWarning($"{name}: clip is NULL", this); return; }
-        if (sources == null || sources.Length == 0) { Debug.LogError($"{name}: sources array empty", this); return; }
+        if (sources == null || sources.Length == 0) { Debug.LogError($"{name}: sources array is empty", this); return; }
 
         var s = sources[next];
         if (s == null) { Debug.LogError($"{name}: sources[{next}] is None", this); return; }

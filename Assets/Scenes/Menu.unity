@@ -3305,6 +3305,7 @@ GameObject:
   - component: {fileID: 171512970}
   - component: {fileID: 171512971}
   - component: {fileID: 171512972}
+  - component: {fileID: 171512973}
   m_Layer: 5
   m_Name: LevelSelect
   m_TagString: Untagged
@@ -3359,6 +3360,19 @@ MonoBehaviour:
   handlesEscape: 0
   panel: {fileID: 412910205}
   isOverlay: 0
+--- !u!114 &171512973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171512969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a4e89ab8689464ea9b2b292e905bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuMusic
+  menuMusic: {fileID: 8300000, guid: 6a929d4461f542a41a70d6e1d68d0c91, type: 3}
 --- !u!1 &173484209
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,6 +4524,7 @@ GameObject:
   - component: {fileID: 235144912}
   - component: {fileID: 235144914}
   - component: {fileID: 235144913}
+  - component: {fileID: 235144915}
   m_Layer: 5
   m_Name: ModeSelect
   m_TagString: Untagged
@@ -4564,6 +4579,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &235144915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235144911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a4e89ab8689464ea9b2b292e905bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuMusic
+  menuMusic: {fileID: 8300000, guid: 6a929d4461f542a41a70d6e1d68d0c91, type: 3}
 --- !u!1 &237466777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6465,6 +6493,7 @@ GameObject:
   - component: {fileID: 394872445}
   - component: {fileID: 394872448}
   - component: {fileID: 394872447}
+  - component: {fileID: 394872449}
   m_Layer: 5
   m_Name: LoadingPanel
   m_TagString: Untagged
@@ -6537,6 +6566,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394872444}
   m_CullTransparentMesh: 1
+--- !u!114 &394872449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394872444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a4e89ab8689464ea9b2b292e905bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuMusic
+  menuMusic: {fileID: 8300000, guid: 894edb35e048d5d4faefe6c63cd525d5, type: 3}
 --- !u!1 &399509990
 GameObject:
   m_ObjectHideFlags: 0
@@ -6835,6 +6877,7 @@ GameObject:
   - component: {fileID: 407853903}
   - component: {fileID: 407853904}
   - component: {fileID: 407853905}
+  - component: {fileID: 407853906}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -6890,6 +6933,19 @@ MonoBehaviour:
   handlesEscape: 0
   panel: {fileID: 1979730064}
   isOverlay: 0
+--- !u!114 &407853906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407853902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a4e89ab8689464ea9b2b292e905bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuMusic
+  menuMusic: {fileID: 8300000, guid: 6a929d4461f542a41a70d6e1d68d0c91, type: 3}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -8574,6 +8630,7 @@ GameObject:
   - component: {fileID: 530744632}
   - component: {fileID: 530744633}
   - component: {fileID: 530744634}
+  - component: {fileID: 530744635}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -8628,6 +8685,19 @@ MonoBehaviour:
   handlesEscape: 0
   panel: {fileID: 19450889}
   isOverlay: 0
+--- !u!114 &530744635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530744631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a4e89ab8689464ea9b2b292e905bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuMusic
+  menuMusic: {fileID: 8300000, guid: 64510130cd1a73d438710bc0a13e20df, type: 3}
 --- !u!1 &544640573
 GameObject:
   m_ObjectHideFlags: 0
@@ -19235,6 +19305,7 @@ GameObject:
   - component: {fileID: 1128015048}
   - component: {fileID: 1128015047}
   - component: {fileID: 1128015049}
+  - component: {fileID: 1128015050}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -19305,6 +19376,19 @@ MonoBehaviour:
   content: {fileID: 1824453050}
   endCard: {fileID: 173484211}
   speed: 110
+--- !u!114 &1128015050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128015045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a4e89ab8689464ea9b2b292e905bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuMusic
+  menuMusic: {fileID: 8300000, guid: 6a929d4461f542a41a70d6e1d68d0c91, type: 3}
 --- !u!1 &1129856120
 GameObject:
   m_ObjectHideFlags: 0
@@ -27784,6 +27868,7 @@ GameObject:
   - component: {fileID: 1504987444}
   - component: {fileID: 1504987445}
   - component: {fileID: 1504987446}
+  - component: {fileID: 1504987447}
   m_Layer: 5
   m_Name: Loadout
   m_TagString: Untagged
@@ -27838,6 +27923,19 @@ MonoBehaviour:
   handlesEscape: 0
   panel: {fileID: 189304339}
   isOverlay: 0
+--- !u!114 &1504987447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504987443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a4e89ab8689464ea9b2b292e905bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuMusic
+  menuMusic: {fileID: 8300000, guid: 6a929d4461f542a41a70d6e1d68d0c91, type: 3}
 --- !u!1 &1511296965
 GameObject:
   m_ObjectHideFlags: 0
@@ -30808,6 +30906,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661777608}
   m_CullTransparentMesh: 1
+--- !u!1 &1668956945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1668956947}
+  - component: {fileID: 1668956946}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1668956946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668956945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cdac6d46e38c48419afe5cd3d897f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameFlow
+  player: {fileID: 0}
+--- !u!4 &1668956947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668956945}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1983.9739, y: -0.00005, z: 2.0255267e+10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1678735364
 GameObject:
   m_ObjectHideFlags: 0
@@ -31659,7 +31802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17d68b77908144d4199f74a7b7794d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicDirector
-  session: {fileID: 0}
+  session: {fileID: 1668956946}
   gameplayMusic: {fileID: 8300000, guid: 6a929d4461f542a41a70d6e1d68d0c91, type: 3}
   resultsMusic: {fileID: 8300000, guid: 2366b81a39f868147a56c86b0c8fb59b, type: 3}
   winSfx: {fileID: 8300000, guid: 7dc5d9dc319f1654888431b49f456b86, type: 3}
@@ -40149,3 +40292,4 @@ SceneRoots:
   - {fileID: 1002789914}
   - {fileID: 1098648682}
   - {fileID: 1707322779}
+  - {fileID: 1668956947}
